@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fresh_color">#ff009900</color>
+    <color name="older_color">#ffdd9900</color>
+    <color name="stale_color">#ff990000</color>
+</resources>
