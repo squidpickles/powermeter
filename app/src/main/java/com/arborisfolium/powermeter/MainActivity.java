@@ -113,7 +113,7 @@ public class MainActivity extends Activity implements PowerClient.ClientCallback
             mClient.connect();
         } catch (final MqttException err) {
             Log.e(TAG, "Error connecting", err);
-            Toast.makeText(this, R.string.mqtt_err_connecting, Toast.LENGTH_LONG);
+            Toast.makeText(this, R.string.mqtt_err_connecting, Toast.LENGTH_LONG).show();
         }
     }
 
